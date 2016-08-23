@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "61122679242",
+    "firebase_url": "https://fir-lab-33f3b.firebaseio.com",
+    "project_id": "fir-lab-33f3b",
+    "storage_bucket": "fir-lab-33f3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61122679242:android:39f9e4f530d8c4c2",
+        "android_client_info": {
+          "package_name": "com.example.freatnor.firebase_lab_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61122679242-a554ukuhsj5n6aa31ht0gvq12cthqur4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8fyoa6ezfo3u4EJF4RmmaVlE8EifkphA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

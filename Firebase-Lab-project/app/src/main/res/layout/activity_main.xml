@@ -11,14 +11,32 @@
     tools:context="com.example.freatnor.firebase_lab_project.MainActivity">
 
     <TextView
+        android:id="@+id/username_display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
-
     <ListView
         android:id="@+id/list_view"
+        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/message_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75"
+            android:hint="Enter message here"/>
+        <Button
+            android:id="@+id/enter_text_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:onClick="sendMessage"/>
+    </LinearLayout>
 
 </LinearLayout>
